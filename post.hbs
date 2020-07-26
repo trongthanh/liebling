@@ -37,7 +37,7 @@ into the {body} of the default.hbs template --}}
       {{/if}}
     {{/if}}
   {{/post}}
-  
+
   <article>
     <div class="l-content in-post">
       {{!-- Everything inside the #post tags pulls data from the post --}}
@@ -52,7 +52,7 @@ into the {body} of the default.hbs template --}}
                   <a href="{{primary_tag.url}}" class="m-heading__meta__tag">{{primary_tag.name}}</a>
                   <span class="m-heading__meta__divider" aria-hidden="true">&bull;</span>
                 {{/if}}
-                <span class="m-heading__meta__time">{{date published_at}}</span>
+                <span class="m-heading__meta__time">📅 {{date published_at format="DD/MM/YYYY"}}</span>
               </div>
             </header>
             <div class="pos-relative js-post-content">
