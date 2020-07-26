@@ -167,13 +167,11 @@ into the {body} of the default.hbs template --}}
           </div>
         {{/if}}
         {{!-- Third-party comments --}}
-        {{!--
-          <section class="m-comments">
-            <div class="l-wrapper in-comments js-third-party-comments">
-              <!-- Paste here the provided code snippet -->
-            </div>
-          </section>
-        --}}
+        <section class="m-comments">
+          <div class="l-wrapper in-comments js-comments-iframe">
+            <div class="fb-comments" data-href="https://nuoidaycon.blog" data-numposts="20" data-width="100%">Đang tải bình luận...</div>
+          </div>
+        </section>
       {{/post}}
       {{!-- Related posts --}}
       {{#if post.tags.length}}
