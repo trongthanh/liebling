@@ -26,39 +26,6 @@
     <style>
       /* These font-faces are here to make fonts work if the Ghost instance is installed in a subdirectory */
 
-      /* source-sans-pro-regular - latin */
-      @font-face {
-        font-family: 'Source Sans Pro';
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
-            url("{{asset 'fonts/source-sans-pro/source-sans-pro-v13-latin-regular.woff2'}}") format('woff2'),
-            url("{{asset 'fonts/source-sans-pro/source-sans-pro-v13-latin-regular.woff'}}") format('woff');
-      }
-
-      /* source-sans-pro-600 - latin */
-      @font-face {
-        font-family: 'Source Sans Pro';
-        font-style: normal;
-        font-weight: 600;
-        font-display: swap;
-        src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
-            url("{{asset 'fonts/source-sans-pro/source-sans-pro-v13-latin-600.woff2'}}") format('woff2'),
-            url("{{asset 'fonts/source-sans-pro/source-sans-pro-v13-latin-600.woff'}}") format('woff');
-      }
-
-      /* source-sans-pro-700 - latin */
-      @font-face {
-        font-family: 'Source Sans Pro';
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
-            url("{{asset 'fonts/source-sans-pro/source-sans-pro-v13-latin-700.woff2'}}") format('woff2'),
-            url("{{asset 'fonts/source-sans-pro/source-sans-pro-v13-latin-700.woff'}}") format('woff');
-      }
-
       /* iconmoon */
       @font-face {
         font-family: 'icomoon';
@@ -73,12 +40,14 @@
       }
     </style>
 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="{{asset "css/app.css"}}" media="screen" />
 
     {{!-- This #block helper will inject a stylesheet for a specific page --}}
     {{{block "styles"}}}
 
-    {{!-- This #block helper will pull data from the hero partial 
+    {{!-- This #block helper will pull data from the hero partial
     to inject styles of the hero image to make it responsive --}}
     {{{block "herobackground"}}}
 
