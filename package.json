@@ -1,13 +1,16 @@
 {
   "author": {
-    "email": "this.eduardo@gmail.com",
-    "name": "Eduardo Gómez",
-    "url": "https://eduardogomez.io"
+    "email": "trongthanh@gmail.com",
+    "name": "Trong Thanh",
+    "url": "https://int3ractive.com"
   },
   "config": {
     "posts_per_page": 10,
     "card_assets": {
-      "exclude": ["bookmark", "gallery"]
+      "exclude": [
+        "bookmark",
+        "gallery"
+      ]
     },
     "image_sizes": {
       "xxs": {
@@ -61,7 +64,7 @@
       }
     }
   },
-  "demo": "https://liebling.eduardogomez.io",
+  "demo": "https://nuoidaycon.blog",
   "description": "Beautiful and clean theme that is easy and comfortable to use.",
   "engines": {
     "ghost": ">=5.0.0"
@@ -87,5 +90,5 @@
     "desktop": "assets/screenshot-desktop.jpg",
     "mobile": "assets/screenshot-mobile.jpg"
   },
-  "version": "2.1.6-ndcb.2"
+  "version": "2.1.6-ndcb.3"
 }
