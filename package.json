@@ -82,10 +82,10 @@
     "ghost-theme"
   ],
   "license": "MIT",
-  "name": "liebling",
+  "name": "nuoidayconblog",
   "screenshots": {
     "desktop": "assets/screenshot-desktop.jpg",
     "mobile": "assets/screenshot-mobile.jpg"
   },
-  "version": "2.1.6"
+  "version": "2.1.6-ndcb.2"
 }
